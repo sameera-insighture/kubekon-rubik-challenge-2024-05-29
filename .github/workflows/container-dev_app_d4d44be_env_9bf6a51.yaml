@@ -5,9 +5,12 @@ name: container-dev_app_d4d44be_env_9bf6a51 Pipeline (Skyu Generated)
       - main
     paths-ignore:
       - .github/workflows/**
+      - .trivyignore
+      - Readme.md
+      - README.md
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_eb54a05e-450c-4a05-9d55-aced775beae1
+    types: pipeline_e66ea33e-d055-443d-aa19-b0584bfa15dc
 env:
   ENCODED_PIPELINE_SECRET: >-
     ${{secrets.KUBEKONRUBIKCHALLENGE20240529_CONTAINERDEV_APP_D4D44BE_ENV_9BF6A51}}
